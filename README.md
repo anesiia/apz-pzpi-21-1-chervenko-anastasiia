@@ -29,11 +29,19 @@ The web application is focused on internal restaurant workflows:
 * Managing menu, reservations, tables, orders, inventory, and shifts
 * A clear UI for day-to-day operational tasks
 
-### Architecture & Tech Stack
+## Architecture, Tech Stack & Repository Structure
 
-* **Backend:** ASP.NET Core (C#) **REST API**
-* **Database:** **MongoDB**
-* **Web:** HTML / CSS / JavaScript
-* **Mobile:** Android (Kotlin)
+### Tech Stack
+- **Backend:** ASP.NET Core (C#) REST API
+- **Database:** MongoDB
+- **Web:** HTML / CSS / JavaScript
+- **Mobile:** Android (Kotlin)
+
+### Repository structure
+This repository is organized into task folders (university deliverables):
+- **Task1 — Vision & Scope:** project idea, goals, requirements, and overall system scope.
+- **Task2 — Backend (Server):** API implementation (core business logic, endpoints) using ASP.NET Core + MongoDB.
+- **Task4 — Web App:** web client for administrators and staff workflows.
+- **Task5 — Mobile App:** Android app for guests (menu browsing, reservations, profile, bonuses).
 
 Tastify is built as a multi-component system where the backend API acts as the single source of truth and is consumed by both the web and mobile clients.
